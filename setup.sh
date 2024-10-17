@@ -100,7 +100,7 @@ elif [ -d "PhishIntention" ]; then
     cd ../
     rm -rf PhishIntention
 else
-    git clone -b development --single-branch https://github.com/lindsey98/PhishIntention.git
+    git clone https://github.com/neo-shisui/PhishIntention.git
     cd PhishIntention
     chmod +x ./setup.sh
     export ENV_NAME="$ENV_NAME" && ./setup.sh
