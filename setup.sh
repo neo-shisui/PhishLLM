@@ -139,5 +139,5 @@ fi
 # Download the ranking model
 mkdir -p checkpoints
 cd checkpoints
-conda run -n "$ENV_NAME" pip install gdown
+conda run -n "$ENV_NAME" pip install gdown==4.7.3
 conda run -n "$ENV_NAME" gdown --id 1bpy-SRDOkL96j9r3ErBd7L5mDUdLAWaU
